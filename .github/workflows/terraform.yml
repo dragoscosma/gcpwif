@@ -28,7 +28,7 @@ jobs:
       uses: google-github-actions/auth@v2.0.0  
       with:
         workload_identity_provider: 'projects/520972802909/locations/global/workloadIdentityPools/my-pool-id/providers/github-trusted-provider-id'
-        service_account: 'gke-cicd@test-dcosec.iam.gserviceaccount.com'
+        service_account: 'test-wif@test-dcosec.iam.gserviceaccount.com'
 
 
           
