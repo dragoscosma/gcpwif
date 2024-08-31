@@ -1,4 +1,4 @@
-resource "google_storage_bucket" "my-bucket-wirftest" {
+resource "google_storage_bucket" "my-bucket-wiftest" {
   name          = "bkt-demo-000"
   location      = "us-central1"
   project = "test-dcosec"
